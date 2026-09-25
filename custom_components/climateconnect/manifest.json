@@ -2,10 +2,10 @@
   "domain": "climateconnect",
   "name": "ClimateConnect (Itho Daalderop)",
   "version": "0.1.0",
-  "documentation": "https://github.com/YOUR_GITHUB_USERNAME/climateconnect-homeassistant",
-  "issue_tracker": "https://github.com/YOUR_GITHUB_USERNAME/climateconnect-homeassistant/issues",
+  "documentation": "https://github.com/vleerie/climateconnect-homeassistant",
+  "issue_tracker": "https://github.com/vleerie/climateconnect-homeassistant/issues",
   "requirements": ["requests>=2.31.0"],
-  "codeowners": ["@YOUR_GITHUB_USERNAME"],
+  "codeowners": ["@vleerie"],
   "config_flow": true,
   "iot_class": "cloud_polling"
 }

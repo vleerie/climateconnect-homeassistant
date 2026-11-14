@@ -61,7 +61,7 @@ class ClimateConnectWaterHeater(CoordinatorEntity, WaterHeaterEntity):
 
     @property
     def current_temperature(self) -> float | None:
-        return (self.coordinator.data or {}).get("mode", {}).get("temperature")
+        return (self.coordinator.data or {}).get("status", {}).get("deviceTemperatureMeasured")
 
     @property
     def target_temperature(self) -> float | None:
